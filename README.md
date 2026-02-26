@@ -50,7 +50,7 @@
 ```bash
 git clone https://github.com/zixi666/Message-PushConverge.git
 cd Message-PushConverge
-
+```
 2. **后端启动**
 ```bash
 # 创建虚拟环境
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 # 启动服务
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-
+```
 3. **前端启动**
 ```bash
 # 进入前端目录
@@ -75,11 +75,10 @@ cd web
 
 # 安装依赖
 npm install
-# 或使用 pnpm
-pnpm install
 
 # 启动开发服务器
 npm run dev
 
 # 构建生产版本
 npm run build
+```
